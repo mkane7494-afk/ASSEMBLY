@@ -1,13 +1,13 @@
 # assemblysystems.com.au
 
-Marketing site for **Assembly Business Systems Co Pty Ltd** — static HTML, deployed on Vercel.
+Marketing site for **Assembly Business Systems Co Pty Ltd**: static HTML, deployed on Vercel.
 
 ## Structure
-- `index.html` — the landing page (markup, styles and motion script inline)
-- `privacy.html` — privacy policy (served at `/privacy`)
-- `assets/` — logo SVGs, product screenshots, footage (MP4 + poster frames), GSAP, ScrollTrigger and Lenis
+- `index.html`: the landing page (markup, styles and motion script inline)
+- `privacy.html`: privacy policy (served at `/privacy`)
+- `assets/`: logo SVGs, product screenshots, footage (MP4 + poster frames), GSAP, ScrollTrigger and Lenis
 - `og.jpg`, `apple-touch-icon.png`, `robots.txt`, `sitemap.xml`
-- `vercel.json` — clean URLs, caching and security headers
+- `vercel.json`: clean URLs, caching and security headers
 
 ## Deploy
 No build step. Vercel serves the repository root as-is (Framework preset: **Other**, no build command, output directory `.`).
